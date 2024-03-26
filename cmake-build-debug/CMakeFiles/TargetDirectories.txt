@@ -1,0 +1,3 @@
+/Users/inezyoon/Desktop/git/term2git/Cveloppers/cmake-build-debug/CMakeFiles/Cveloppers.dir
+/Users/inezyoon/Desktop/git/term2git/Cveloppers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/inezyoon/Desktop/git/term2git/Cveloppers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
