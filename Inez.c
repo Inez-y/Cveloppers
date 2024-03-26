@@ -1,3 +1,8 @@
-//
-// Created by Inez Yoon on 2024-03-26.
-//
+int socketPractice() {
+    // Socket
+    int sockfd = socket(domain, type, protocol)
+
+}
+int main() {
+
+}
