@@ -1,0 +1,6 @@
+# ninja log v5
+0	42	1712125951367149721	build.ninja	63f58d9cbcc634c
+0	43	1712018063107940200	CMakeFiles/Cveloppers.dir/sounds.c.o	46c9565ed032d846
+5	36	1712015519006564158	CMakeFiles/Cveloppers.dir/client.c.o	a9b8cdad4875e338
+5	36	1712015519006289493	CMakeFiles/Cveloppers.dir/server.c.o	258fe52f0b5842ff
+43	180	1712018063242748637	Cveloppers	f3fe4e1179a9a80c
