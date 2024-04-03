@@ -8,4 +8,4 @@ add_executable(Cveloppers
         client.c
         server.c
         sounds.c
-        tictactoe.c)
+        ttt.c)

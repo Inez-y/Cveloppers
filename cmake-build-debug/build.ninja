@@ -67,8 +67,8 @@ build CMakeFiles/Cveloppers.dir/sounds.c.o: C_COMPILER__Cveloppers_unscanned_Deb
   OBJECT_DIR = CMakeFiles/Cveloppers.dir
   OBJECT_FILE_DIR = CMakeFiles/Cveloppers.dir
 
-build CMakeFiles/Cveloppers.dir/tictactoe.c.o: C_COMPILER__Cveloppers_unscanned_Debug /Users/inezyoon/Desktop/git/term2git/Cveloppers/tictactoe.c || cmake_object_order_depends_target_Cveloppers
-  DEP_FILE = CMakeFiles/Cveloppers.dir/tictactoe.c.o.d
+build CMakeFiles/Cveloppers.dir/ttt.c.o: C_COMPILER__Cveloppers_unscanned_Debug /Users/inezyoon/Desktop/git/term2git/Cveloppers/ttt.c || cmake_object_order_depends_target_Cveloppers
+  DEP_FILE = CMakeFiles/Cveloppers.dir/ttt.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Cveloppers.dir
   OBJECT_FILE_DIR = CMakeFiles/Cveloppers.dir
@@ -81,7 +81,7 @@ build CMakeFiles/Cveloppers.dir/tictactoe.c.o: C_COMPILER__Cveloppers_unscanned_
 #############################################
 # Link the executable Cveloppers
 
-build Cveloppers: C_EXECUTABLE_LINKER__Cveloppers_Debug CMakeFiles/Cveloppers.dir/server.c.o CMakeFiles/Cveloppers.dir/client.c.o CMakeFiles/Cveloppers.dir/sounds.c.o CMakeFiles/Cveloppers.dir/tictactoe.c.o
+build Cveloppers: C_EXECUTABLE_LINKER__Cveloppers_Debug CMakeFiles/Cveloppers.dir/server.c.o CMakeFiles/Cveloppers.dir/client.c.o CMakeFiles/Cveloppers.dir/sounds.c.o CMakeFiles/Cveloppers.dir/ttt.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/Cveloppers.dir
   POST_BUILD = :
