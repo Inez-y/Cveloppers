@@ -108,12 +108,12 @@ int main() {
         }
         // Handle client wins
         if (checkWinner(board) == clientMark) {
-            printf("Client wins!\n");
             drawBoard(board);
+            printf("Client wins! You lose!\n");
             break;
         } 
     }
-
+    printf("Game Over!\n");
 
     // Close sockets
     close(server_socket);

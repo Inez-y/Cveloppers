@@ -53,20 +53,18 @@ int main() {
             break;
         }
 
-        // Handle server wins
+        // Handle result
         if (checkWinner(board) == serverMark) {
             drawBoard(board);
-            printf("Server wins!\n");
+            printf("Server wins! You lose!\n");
             break;
         } 
         if (checkDraw(board)) {
           printf("Draw\n");
-          // send(client_socket, board, sizeof(board), 0);
           break;
         }
 
         // Client's turn
-        
         printf("Turn for client.\n");
         drawBoard(board);
 
@@ -85,6 +83,7 @@ int main() {
             break;
         }
 
+        // Check for error when sending board to client
         if (send(client_socket, board, sizeof(board), 0) < 0) {
           perror("Sending board error from client.\n");
           exit(EXIT_FAILURE);
@@ -92,6 +91,7 @@ int main() {
         
  
     }
+    printf("Game Over!\n");
      // Close socket
     close(client_socket);
 
